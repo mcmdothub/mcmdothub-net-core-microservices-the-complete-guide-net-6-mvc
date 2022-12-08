@@ -1,3 +1,6 @@
+using AutoMapper;
+
+using Deli.Services.ProductAPI;
 using Deli.Services.ProductAPI.DbContexts;
 
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +13,15 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
+
+// We register maps method and call the CreateMapper that will create the mapping
+IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+
+// this instance we want to add as a singleton implementation
+builder.Services.AddSingleton(mapper);
+
+// this will complete our auto mapper configuration in our product api
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

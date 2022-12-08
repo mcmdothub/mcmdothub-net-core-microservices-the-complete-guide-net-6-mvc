@@ -24,3 +24,5 @@
 # Create DTO's inside Product API
 
 # Product Repository Interface
+
+# AutoMapper Configuration in Product API
