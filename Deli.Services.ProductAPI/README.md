@@ -28,3 +28,5 @@
 # AutoMapper Configuration in Product API
 
 # Product Repository implementation
+
+# Product API controller HTTPGET
