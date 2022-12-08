@@ -5,7 +5,11 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{D2555BAF-A066-47BC-9BD0-785513D101A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deli.Web", "Deli.Web\Deli.Web.csproj", "{954674F5-9988-445A-ACF1-11AFA6C085B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deli.Web", "Deli.Web\Deli.Web.csproj", "{954674F5-9988-445A-ACF1-11AFA6C085B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F8F88CB8-C596-47D7-99B8-CEFEB6AA8733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deli.Services.ProductAPI", "Deli.Services.ProductAPI\Deli.Services.ProductAPI.csproj", "{78B2BB7C-B017-4969-BE55-1DCC986549F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{954674F5-9988-445A-ACF1-11AFA6C085B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{954674F5-9988-445A-ACF1-11AFA6C085B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{954674F5-9988-445A-ACF1-11AFA6C085B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B2BB7C-B017-4969-BE55-1DCC986549F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B2BB7C-B017-4969-BE55-1DCC986549F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B2BB7C-B017-4969-BE55-1DCC986549F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B2BB7C-B017-4969-BE55-1DCC986549F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{954674F5-9988-445A-ACF1-11AFA6C085B9} = {D2555BAF-A066-47BC-9BD0-785513D101A0}
+		{78B2BB7C-B017-4969-BE55-1DCC986549F4} = {F8F88CB8-C596-47D7-99B8-CEFEB6AA8733}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31108F99-225F-4C60-9118-6739BCD0B1DB}
