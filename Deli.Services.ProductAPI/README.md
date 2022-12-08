@@ -8,3 +8,5 @@
 	- Microsoft.AspNetCore.Authentication.JwtBearer			( used for authentification)
 	- Microsoft.EntityFrameworkCore.SqlServer				(used for database and migration's)
 	- Microsoft.EntityFrameworkCore.Tools					(used for database and migration's)
+
+# Configure DbContext for Product API
