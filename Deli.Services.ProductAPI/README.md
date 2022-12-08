@@ -54,3 +54,5 @@
 # Base Service Implementation
 
 # Product Service in Deli Web Project
+
+# Configure ProductService and HttpClient in Startup
