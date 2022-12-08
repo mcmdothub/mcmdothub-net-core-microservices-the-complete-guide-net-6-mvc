@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{D2555BAF-A066-47BC-9BD0-785513D101A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deli.Web", "Deli.Web\Deli.Web.csproj", "{954674F5-9988-445A-ACF1-11AFA6C085B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{954674F5-9988-445A-ACF1-11AFA6C085B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954674F5-9988-445A-ACF1-11AFA6C085B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954674F5-9988-445A-ACF1-11AFA6C085B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954674F5-9988-445A-ACF1-11AFA6C085B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{954674F5-9988-445A-ACF1-11AFA6C085B9} = {D2555BAF-A066-47BC-9BD0-785513D101A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31108F99-225F-4C60-9118-6739BCD0B1DB}
+	EndGlobalSection
+EndGlobal
