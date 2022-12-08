@@ -34,3 +34,15 @@
 # Product API controller POST PUT DELETE
 
 # Seed products in Product API
+
+# Azure Storage Explorer for Images
+	- I used alternative Google Cloud / to seed the picture url
+	- PackageManager console:
+	- Add-migration:
+			PM> add-migration SeedProducts
+
+	- If you want to remove the migration
+			PM> Remove-Migration
+
+	- Update the database
+			PM> update-database
