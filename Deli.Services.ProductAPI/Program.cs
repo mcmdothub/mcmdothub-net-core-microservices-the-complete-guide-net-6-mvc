@@ -2,6 +2,7 @@ using AutoMapper;
 
 using Deli.Services.ProductAPI;
 using Deli.Services.ProductAPI.DbContexts;
+using Deli.Services.ProductAPI.Repository;
 
 using Microsoft.EntityFrameworkCore;
 
@@ -22,6 +23,8 @@ builder.Services.AddSingleton(mapper);
 
 // this will complete our auto mapper configuration in our product api
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
