@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Deli.Services.ProductAPI.Models;
+
+using Microsoft.EntityFrameworkCore;
 
 namespace Deli.Services.ProductAPI.DbContexts
 {
@@ -9,6 +11,6 @@ namespace Deli.Services.ProductAPI.DbContexts
 
         }
 
-
+        public DbSet<Product> Products { get; set; }
     }
 }

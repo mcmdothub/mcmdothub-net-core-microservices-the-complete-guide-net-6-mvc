@@ -10,3 +10,13 @@
 	- Microsoft.EntityFrameworkCore.Tools					(used for database and migration's)
 
 # Configure DbContext for Product API
+
+# Create tables for Product database
+	- PackageManager console: 
+		- Select Default project: "Services\Deli.Services.ProductAPI"
+		- Check that in "Solution Explorer" startup project is: "Services\Deli.Services.ProductAPI"
+		- Add-migration:
+			PM> add-migration AddProductModelToDb
+
+		- Push to database:
+			PM> update-database
