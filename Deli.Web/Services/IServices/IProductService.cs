@@ -3,12 +3,12 @@
 namespace Deli.Web.Services.IServices
 {
     // here we will have all of the methods to do crude operations on product
-    public interface IProductService
+    public interface IProductService : IBaseService
     {
         // we keep the Task generic as T 
         Task<T> GetAllProductsAsync<T>();
 
-        Task<T> GetAllProductByIdAsync<T>(int id);
+        Task<T> GetProductByIdAsync<T>(int id);
 
         Task<T> CreateProductAsync<T>(ProductDto productDto);
 
